@@ -1,7 +1,8 @@
 name: Add Version Number
-on: push
-  branches:
-    - "develop"
+on: 
+  push:
+    branches:
+      - "develop"
 
 env:
   TZ: "Asia/Tokyo"
